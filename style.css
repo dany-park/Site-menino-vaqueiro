@@ -3,11 +3,39 @@ background-color:#FFCC00;
 font-family: "Inter", sans-serif;
 }
 
-h1 {
+#titulo h1 {
 font-family: "Lalezar", sans-serif;
-font-size: 30px;
+font-size: 50px;
 }
 
-h2 {
-font-size: 20px;
+#titulo h2 {
+font-size: 40px;
+}
+
+#nos h2 {
+font-size: 30px
+}
+
+#nos p {
+font-size: 20px
+}
+
+#missao h2 {
+font-size: 30px
+}
+
+#missao p {
+font-size: 20px
+}
+
+#midia h2 {
+font-size:30px
+}
+
+#midia ul {
+font-size: 20px
+}
+
+#comentarios h2 {
+font-size: 30px
 }
