@@ -1,6 +1,44 @@
 body {
 background-color:#FFCC00;
 font-family: "Inter", sans-serif;
+margin: 0;
+padding: 0;
+}
+
+nav {
+background-color:#F5F5F5;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-right: 50px;
+padding-left: 50px;
+height: 142px;
+}
+
+.titulo-nav {
+font-size: 20px;
+}
+
+nav div {
+display:flex;
+justify-content: space-around;
+align-items: center;
+}
+
+nav ul {
+display:flex;
+justify-content: space-around;
+width: 500px;
+list-style: none;
+}
+
+nav button {
+font-size: 12px;
+font-weight: bold;
+background-color: black;
+color: white;
+border-radius: 5px;
+padding: 8px;
 }
 
 #titulo h1 {
