@@ -15,6 +15,11 @@ padding-left: 50px;
 height: 142px;
 }
 
+main {
+padding-left: 100px;
+padding-right: 100px;
+}
+
 .titulo-nav {
 font-size: 20px;
 }
@@ -30,6 +35,7 @@ display:flex;
 justify-content: space-around;
 width: 500px;
 list-style: none;
+font-weight: bold;
 }
 
 nav button {
@@ -41,14 +47,50 @@ border-radius: 5px;
 padding: 8px;
 }
 
+.header {
+display: flex;
+padding-top: 10px;
+align-items: center;
+justify-content: center;
+gap: 100px;
+}
+
+.header img {
+border-radius: 50%;
+}
+
+.header h1 {
+text-align: center;
+}
+
+#titulo {
+text-align: center;
+}
+
 #titulo h1 {
 font-family: "Lalezar", sans-serif;
 font-size: 50px;
 }
 
 #titulo h2 {
-font-size: 40px;
+font-size: 30px;
+line-height: 20px;
 }
+
+#titulo button {
+font-size: 20px;
+font-weight: bold;
+background-color: black;
+color: white;
+border-radius: 5px;
+padding: 8px;
+}
+
+.jumentinhos {
+text-align: center;
+padding-top: 50px;
+}
+
 
 #nos h2 {
 font-size: 30px
@@ -57,6 +99,7 @@ font-size: 30px
 #nos p {
 font-size: 20px
 }
+
 
 #missao h2 {
 font-size: 30px
@@ -76,4 +119,27 @@ font-size: 20px
 
 #comentarios h2 {
 font-size: 30px
+}
+
+footer {
+background-color:#F5F5F5;
+font-size: 20px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding-right: 300px;
+padding-left: 300px;
+height: 142px;
+}
+
+footer a {
+display: flex;
+align-items: center;
+background-color: #dedace;
+text-align: bottom;
+border-radius: 200%;
+font-size: 40px;
+font-color: black;
+font-weight: bold;
 }
