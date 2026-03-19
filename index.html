@@ -17,11 +17,11 @@
         <h1 class="titulo-nav">Abrigo Menino Vaqueiro</h1>
         <div>
         <ul>
-            <li>Quem somos</li>
-            <li>Missão</li>
-            <li>Na mídia</li>
+            <li><a href="#nos">Quem somos</a></li>
+            <li><a href="#missao">Missão</a></li>
+            <li><a href="#midia">Na mídia</a></li>
         </ul>
-        <button>DOE AGORA</button>
+        <button onclick="abrepix()">DOE AGORA</button>
         </div>
     </nav>
     <main>
@@ -31,7 +31,7 @@
                 <h1>Abrigo Menino Vaqueiro</h1>
                 <h2>Ajudando a cuidar de jumentos e outros animais resgatados!</h2>
                 <h2>Venha fazer parte, ajude você também!</h2>
-                <button>DOE AGORA</button>
+                <button onclick="abrepix()">DOE AGORA</button>
             </div>
         </div>
         <div class="jumentinhos">
@@ -40,7 +40,7 @@
         </div>
         <div id="nos">
             <h2>Quem somos nós</h2>
-            <p>O Abrigo Menino Vaqueiro é uma iniciativa dedicada ao resgate e proteção de jumentos na região metropolitana de Fortaleza, Ceará. Diferente de muitas ONGs que focam em animais domésticos comuns, o nosso olhar se volta para estes "gigantes" que, durante décadas, foram símbolo de trabalho, mas que hoje enfrentam o abandono e a violência nas ruas.</p>
+            <p>O Abrigo Menino Vaqueiro é uma iniciativa dedicada ao resgate e proteção de jumentos na região metropolitana de Fortaleza, Ceará. Diferente de muitas ONGs que focam em animais domésticos comuns, o nosso olhar se volta para estes "gigantes" que, durante décadas, foram símbolo de trabalho, mas que hoje enfrentam o abandono, a violência nas ruas e o risco de extinção.</p>
             <p>Fundado pela Dona Márcia, o abrigo nasceu de um gesto simples de cuidado com uma única jumentinha. No entanto, ao descobrir a natureza amável e carinhosa destes animais, o projeto cresceu rapidamente e hoje cuida de quase 90 animais. O nome do abrigo é fruto de uma promessa de fé feita por Dona Márcia após o desaparecimento de parte do seu rebanho. Ao recuperar os animais, ela batizou o espaço em homenagem ao Menino Vaqueiro, selando o compromisso de proteger estes seres para sempre.</p>
             <p>Somos uma comunidade mantida exclusivamente pela solidariedade de quem nos acompanha pelas redes sociais e acredita na importância de dar uma segunda oportunidade a estes animais.</p>
         </div>
@@ -52,13 +52,13 @@
         <div id="midia">
             <h2>Menino Vaqueiro na mídia</h2>
             <ul>
-              <li><a href="https://www.instagram.com/p/DPEXodaDZjB">postagem com video dos jumentinhos</a></li>
-              <li><a href="https://www.instagram.com/reels/DUNuq2-jzlt/">postagem reportagem furto de 20 jumentos</a></li>
-              <li><a href="https://www.uol.com.br/ecoa/ultimas-noticias/2022/07/04/salvejegue-campanha-luta-contra-a-extincao-de-jumentos-no-brasil.htm">reportagem ecoa</a></li>
+              <li><a href="https://www.instagram.com/p/DPEXodaDZjB">post video dos jumentinhos</a></li>
+              <li><a href="https://www.instagram.com/reels/DUNuq2-jzlt/">post reportagem furto de 20 jumentos</a></li>
+              <li><a href="https://www.uol.com.br/ecoa/ultimas-noticias/2022/07/04/salvejegue-campanha-luta-contra-a-extincao-de-jumentos-no-brasil.htm">artigo ecoa</a></li>
               <li><a href="https://youtu.be/U_7ts93wo60?si=su36lS9lmZBtdGd8">vídeo-reportagem Tv Evangelizar</a></li>
-              <li><a href="https://agenciabrasil.ebc.com.br/geral/noticia/2025-06/demanda-da-china-por-gelatina-coloca-coloca-jumentos-em-risco-de-extincao">reportagem extinção de jumentos</a></li>
-              <li><a href="https://g1.globo.com/meio-ambiente/noticia/2025/06/26/jumento-brasileiro-pode-entrar-em-extincao-ate-2030-com-abate-para-exportacao-para-china-alerta-pesquisador.ghtml">reportagem G1 extinção de jumemtos</a></li>
-              <li><a href="https://g1.globo.com/pb/videos-bom-dia-paraiba/video/risco-de-extincao-populacao-de-jumento-diminuiu-quase-70-por-cento-11918102.ghtml">reportagem G1 extinção de jumentos 2</a></li>
+              <li><a href="https://agenciabrasil.ebc.com.br/geral/noticia/2025-06/demanda-da-china-por-gelatina-coloca-coloca-jumentos-em-risco-de-extincao">artigo extinção de jumentos</a></li>
+              <li><a href="https://g1.globo.com/meio-ambiente/noticia/2025/06/26/jumento-brasileiro-pode-entrar-em-extincao-ate-2030-com-abate-para-exportacao-para-china-alerta-pesquisador.ghtml">artigo G1 extinção de jumemtos</a></li>
+              <li><a href="https://g1.globo.com/pb/videos-bom-dia-paraiba/video/risco-de-extincao-populacao-de-jumento-diminuiu-quase-70-por-cento-11918102.ghtml">artigo G1 extinção de jumentos 2</a></li>
               <li><a href="https://youtu.be/EQKYVaqGHuM?si=2tHKzaJjU5ZmsKQm">vídeo-reportagem FAPESP extinção de jumentos</a></li>
             </ul>
         </div>
@@ -70,11 +70,22 @@
     <footer>
         <p>Abrigo Menino Vaqueiro</p>
         <p>Nos siga no instagram! </p>
-        <a href="https://www.instagram.com/abrigomeninovaqueiro2/"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://www.instagram.com/abrigomeninovaqueiro2/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
         <!--<p>Chame no whatsapp!</p>
         <a href="https://chat.whatsapp.com/Lpcrg6bJgz8HT4L1ryS3D6"><ion-icon name="logo-whatsapp"></ion-icon></a>-->
     </footer>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+  function abrepix() {
+  Swal.fire({
+  title:"Doe agora no pix pelo qr-code acima ou pela chave abaixo!",
+  text:"Chave Pix: CPF 739.511.023-49",
+  imageUrl: "./qrcode.jpeg",
+  imageAlt: "Qr-code do pix"
+  });
+  }
+</script>
 </body>
 </html>
