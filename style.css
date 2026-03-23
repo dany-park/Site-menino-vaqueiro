@@ -139,7 +139,7 @@ nav a {
     font-size: 30px
 }
 
-footer {
+.redes {
     background-color:#F5F5F5;
     font-size: 20px;
     font-weight: bold;
@@ -152,7 +152,7 @@ footer {
     flex-wrap: wrap;
 }
 
-footer a {
+.redes a {
     display: flex;
     align-items: center;
     background-color: #dedace;
@@ -161,6 +161,11 @@ footer a {
     font-size: 40px;
     color: black;
     font-weight: bold;
+}
+
+.creditos {
+    font-size: 15px;
+    padding-left:20px;
 }
 
 @media screen and (max-width: 1000px) {
